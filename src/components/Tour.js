@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 
-const Tour = ({ id, name, info, image, price, removeTour }) => {
+const Tour = ({
+  id,
+  name,
+  info,
+  image,
+  price,
+  removeTour,
+}) => {
   const [readMore, setReadMore] = useState(false);
 
   return (
@@ -13,8 +20,10 @@ const Tour = ({ id, name, info, image, price, removeTour }) => {
           <h4 className="tour-price">${price}</h4>
         </div>
 
-        <p>
-          {readMore ? info : `${info.substring(0, 100)}...`}
+        <p id={`tour-item-para-${id}`}>
+          {readMore
+            ? info
+            : `${info.substring(0, 100)}...`}
 
           {info.length > 100 && (
             <button
@@ -23,12 +32,11 @@ const Tour = ({ id, name, info, image, price, removeTour }) => {
             >
               {readMore ? "See less" : "Read more"}
             </button>
-            
           )}
-          
         </p>
 
         <button
+          id={`delete-btn-${id}`}
           className="delete-btn"
           onClick={() => removeTour(id)}
         >
@@ -40,3 +48,4 @@ const Tour = ({ id, name, info, image, price, removeTour }) => {
 };
 
 export default Tour;
+

@@ -34,7 +34,7 @@ function App() {
 
   if (tours.length === 0) {
     return (
-      <main>
+      <main id = "main">
         <section>
           <h2>No tours left</h2>
 
@@ -47,7 +47,7 @@ function App() {
   }
 
   return (
-    <main>
+    <main id="main">
       <section>
         <div className="title">
           <h2>Our Tours</h2>
