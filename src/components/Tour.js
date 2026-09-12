@@ -29,7 +29,7 @@ const Tour = ({
               className="info-btn"
               onClick={() => setReadMore(!readMore)}
             >
-              {readMore ? "See less" : "See more"}
+              {readMore ? "Show less" : "See more"}
             </button>
           )}
         </p>
