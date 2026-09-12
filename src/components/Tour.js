@@ -21,12 +21,11 @@ const Tour = ({
         </div>
 
         <p id={`tour-item-para-${id}`}>
-          {readMore
-            ? info
-            : `${info.substring(0, 100)}...`}
+          {readMore ? info : `${info.substring(0, 200)}...`}
 
-          {info.length > 100 && (
+          {info.length > 200 && (
             <button
+              id={`see-more-${id}`}
               className="info-btn"
               onClick={() => setReadMore(!readMore)}
             >
@@ -48,4 +47,3 @@ const Tour = ({
 };
 
 export default Tour;
-

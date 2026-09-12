@@ -18,7 +18,7 @@ const tours = [
   {
     id: "recJLW8F8q8F5nG8A",
     name: "Best of Britain in 10 Days Tour",
-    info: "Explore Britain and visit famous landmarks, historic cities, beautiful countryside, and cultural attractions. Experience the unique history and traditions of England, Scotland, and Wales.",
+    info: "Explore Britain and visit famous landmarks, historic cities, beautiful countryside, and cultural attractions. Experience the unique history and traditions of England, Scotland, and Wales.It is famous worldwide for its rich history, royal landmarks, literature, music, and popular culture. ",
     image:
       "https://course-api.com/images/tours/tour-3.jpeg",
     price: "2,995",
@@ -26,7 +26,7 @@ const tours = [
   {
     id: "recK2b1L8h4P5s6T7",
     name: "Best of Italy in 10 Days Tour",
-    info: "Italy offers incredible art, architecture, food, and history. Visit Rome, Florence, Venice, and other beautiful destinations while experiencing the rich Italian culture.",
+    info: "Italy offers incredible art, architecture, food, and history. Visit Rome, Florence, Venice, and other beautiful destinations while experiencing the rich Italian culture.Holds a massive global influence on fashion, opera, and art, especially from the Renaissance period.",
     image:
       "https://course-api.com/images/tours/tour-4.jpeg",
     price: "3,195",
